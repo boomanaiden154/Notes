@@ -14,7 +14,6 @@ jobs:
       image: boomanaiden154/copybara
       env:
         COPYBARA_WORKFLOW: "pushgitlabpullgithub"
-        COPYBARA_OPTIONS: "--force"
         CP_GH_USER: ${{ secrets.COPYBARA_GITHUB_USERNAME }}
         CP_GH_PASS: ${{ secrets.COPYBARA_GITHUB_PASSWORD }}
         CP_GL_USER: ${{ secrets.COPYBARA_GITLAB_USERNAME }}
