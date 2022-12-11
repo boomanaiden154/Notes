@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter14MapBlanked.jpg" style="height:99vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 15vh; left: 50vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 33vh; left: 45vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 30vh; left: 75vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 45vh; left: 55vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 75vh; left: 50vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 72vh; left: 72vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 85vh; left: 15vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"England",
+                "2":"Normandy",
+                "3":"Paris",
+                "4":"France",
+                "5":"Spain",
+                "6":"Avignon",
+                "7":"Granada"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter29MapBlanked.png" style="height:100vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 30vh; left: 40vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 33vh; left: 75vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 38vh; left: 25vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 45vh; left: 15vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 43vh; left: 40vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 62vh; left: 25vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 58vh; left: 55vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 67vh; left: 57vw;"/>
+        <input type="text" id="9" style="position: absolute; top: 78vh; left: 75vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Battle of Tannenberg",
+                "2":"Russia",
+                "3":"Battle of the Marne",
+                "4":"Versailles",
+                "5":"Germany",
+                "6":"Verdun",
+                "7":"Sarajevo",
+                "8":"Serbia",
+                "9":"The Dardanelles"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

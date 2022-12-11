@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter27MapBlanked.png" style="height:100vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 20vh; left: 21vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 18vh; left: 45vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 43vh; left: 8vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 43vh; left: 25vw;">
+        <input type="text" id="5" style="position: absolute; top: 40vh; left: 45vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 35vh; left: 65vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 39vh; left: 80vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 63vh; left: 21vw;"/>
+        <input type="text" id="9" style="position: absolute; top: 83vh; left: 18vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Egypt",
+                "2":"Delhi",
+                "3":"Nigeria",
+                "4":"Ethiopia",
+                "5":"India",
+                "6":"French Indochina",
+                "7":"Phillipines",
+                "8":"Congo",
+                "9":"Cape Colony",
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

@@ -1,0 +1,262 @@
+{
+    "name": "othermisc",
+    "title": "Other Misc",
+    "stylesheet": "main.css",
+    "categories": [
+        {
+            "name": "Misc",
+            "links": [
+                {
+                    "text": "Second semester honors bio final",
+                    "file": "honorsbiofinal.json",
+                    "type": "subsite"
+                }
+            ]
+        },
+        {
+            "name": "World History Maps",
+            "links": [
+                {
+                    "text": "Chapter 32 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter32Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter32MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 31 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter31Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter31MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 30 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter30Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter30MapBlanked.png",
+                            "type": "image"
+                        }, 
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 29 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter29Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter29MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 28 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter28Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter28MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 27 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter27Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter27MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 26 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter26Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter26MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 25 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter25Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter25MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 24 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter24Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter24MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 23 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter23Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter23MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 22 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter22Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter22MapBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 21 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter21Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter21MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 17 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter14Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter17MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 6 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter6Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter6MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 5 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter5Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter5MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Chapter 3 map study guide",
+                    "file": "./Misc/WorldHistory/Chapter3Map.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/WorldHistory/Chapter3MapBlanked.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

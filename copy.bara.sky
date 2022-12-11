@@ -1,0 +1,33 @@
+sourceUrl = "https://gitlab.aidengrossman.com/boomanaiden154/Notes"
+destinationUrl = "https://github.com/boomanaiden154/Notes"
+
+core.workflow(
+    name = "pushgithubpullgitlab",
+    origin = git.origin(
+        url = sourceUrl,
+        ref = "master",
+    ),
+    destination = git.destination(
+        url = destinationUrl,
+        fetch = "master",
+        push = "master",
+    ),
+    origin_files = glob(["**"], exclude=["kube/**", ".gitlab-ci.yml"]),
+    authoring = authoring.pass_thru("Copybara <copybara@example.com>")
+)
+
+
+core.workflow(
+    name = "pushgitlabpullgithub",
+    origin = git.origin(
+        url = destinationUrl,
+        ref = "master",
+    ),
+    destination = git.destination(
+        url = sourceUrl,
+        fetch = "master",
+        push = "master",
+    ),
+    destination_files = glob(["**"], exclude=["kube/**", ".gitlab-ci.yml"]),
+    authoring = authoring.pass_thru("Copybara <copybara@example.com>")
+)

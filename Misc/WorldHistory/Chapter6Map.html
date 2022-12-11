@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter6MapBlanked.jpg" style="height:99vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 3vh; left: 8vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 11vh; left: 20vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 33vh; left: 33vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 30vh; left: 56vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 37vh; left: 75vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 45vh; left: 20vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 48vh; left: 3vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 66vh; left: 20vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Britain",
+                "2":"Gaul",
+                "3":"Italy",
+                "4":"Constantinople",
+                "5":"Nicaea",
+                "6":"Rome",
+                "7":"Spain",
+                "8":"Carthage"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

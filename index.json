@@ -1,0 +1,82 @@
+{
+    "name": "index",
+    "title": "Aiden Grossman's website",
+    "stylesheet": "main.css",
+    "categories": [
+        {
+            "name": "Code",
+            "links": [
+                {
+                    "text": "Polynomialgen",
+                    "file": "./Code/polynomialgen/polynomialgen.md",
+                    "type": "markdown"
+                }
+            ]
+        },
+        {
+            "name": "Ideas",
+            "links": [
+                {
+                    "text": "Code vectorization part 1",
+                    "file": "./Ideas/Markdown/Code vectorization part 1.md",
+                    "type": "markdown"
+                }
+            ]
+        },
+        {
+            "name": "Apologetics/Theology",
+            "links": [
+                {
+                    "text": "The Wife of Peter",
+                    "file": "./ApologeticsTheology/Markdown/The wife of Peter.md",
+                    "type": "markdown"
+                }
+            ]
+        },
+        {
+            "name": "Misc",
+            "links": [
+                {
+                    "text": "Cellular Respiration Diagram",
+                    "file": "./Misc/Cellular respiration diagram/cellular respiration.svg",
+                    "type": "static"
+                },
+                {
+                    "text": "Particle Swarm Optimization",
+                    "file": "./Misc/Markdown/Particle Swarm Optimization.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Converting algebraic expressions into expression trees",
+                    "file": "./Misc/Markdown/Converting algebraic expressions into expression trees.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Other Misc",
+                    "file": "othermisc.json",
+                    "type": "subsite"
+                }
+            ]
+        },
+        {
+            "name": "Math",
+            "links": [
+                {
+                    "text": "Fall Calculus Final Study Guide",
+                    "file": "./Math/Calculus/Notebooks/CalculusFinal.ipynb",
+                    "type": "jupyter"
+                },
+                {
+                    "text": "Chapter 4 (6 to 7) and Chapter 5 (1) Study Guide",
+                    "file": "./Math/Calculus/Notebooks/ChapterFour6-7ChapterFive1.ipynb",
+                    "type": "jupyter"
+                },
+                {
+                    "text": "Bad Math Articles",
+                    "file": "badmath.json",
+                    "type": "subsite"
+                }
+            ]
+        }
+    ]
+}

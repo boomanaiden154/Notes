@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter21MapBlanked.jpg" style="height:99vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 5vh; left: 50vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 10vh; left: 80vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 13vh; left: 43vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 20vh; left: 65vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 26vh; left: 46vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 34vh; left: 32vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 44vh; left: 40vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 49vh; left: 44vw;"/>
+        <input type="text" id="9" style="position: absolute; top: 65vh; left: 22vw;"/>
+        <input type="text" id="10" style="position: absolute; top: 72vh; left: 15vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Sweden",
+                "2":"Russia",
+                "3":"Denmark",
+                "4":"St. Petersburg",
+                "5":"Brandenberg",
+                "6":"Spanish Netherlands",
+                "7":"Bohemia",
+                "8":"Austria",
+                "9":"Madrid",
+                "10":"Spain"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

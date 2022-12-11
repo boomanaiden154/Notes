@@ -1,0 +1,102 @@
+{
+    "name": "honorsbiofinal",
+    "title": "Honors Bio Final Study Guides",
+    "stylesheet": "main.css",
+    "categories": [
+        {
+            "name": "Study Guides",
+            "links": [
+                {
+                    "text": "Digestive System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/DigestiveSystem.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/DigestiveSystemBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Female Reproductive System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/FemaleReproductiveSystem.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/FemaleReproductiveSystemBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Male Reproductive System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/MaleReproductiveSystem.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/MaleReproductiveSystemBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Respiratory System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/RespiratorySystem.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/RespiratorySystemBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Fetal Pig Digestive System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/PigPictureDigestive.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/PigPictureDigestiveBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                },
+                {
+                    "text": "Fetal Pig Respiratory System Study Guide",
+                    "file": "./Misc/HonorsBioFinal/PigPictureRespiratory.html",
+                    "type": "static",
+                    "depends": [
+                        {
+                            "file": "./Misc/HonorsBioFinal/PigPictureRespiratoryBlanked.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Misc/checkanswers.js",
+                            "type": "script"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

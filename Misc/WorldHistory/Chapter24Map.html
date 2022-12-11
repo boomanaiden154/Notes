@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter24MapBlanked.jpg" style="height:99vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 10vh; left: 15vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 12vh; left: 55vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 33vh; left: 10vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 38vh; left: 47vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 76vh; left: 72vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 95vh; left: 60vw;"/>
+        <span>I know, the earth isn't round and it is actually a treadmill with dinosaurs running on the inside./s</span>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Mexico",
+                "2":"Haiti",
+                "3":"Dolores",
+                "4":"Venezuela",
+                "5":"Brazil",
+                "6":"Argentina"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

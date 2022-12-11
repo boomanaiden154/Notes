@@ -1,0 +1,183 @@
+{
+    "name": "badmath",
+    "title": "badmath articles",
+    "stylesheet": "main.css",
+    "categories": [
+        {
+            "name": "Algebra 1",
+            "links": [
+                {
+                    "text": "The Quadratic Formula",
+                    "file": "./Math/Algebra 1/Markdown/The Quadratic Formula.md",
+                    "type": "markdown"
+                }
+            ]
+        },
+        {
+            "name": "Calculus",
+            "links": [
+                {
+                    "text": "Antiderivatives",
+                    "file": "./Math/Calculus/Markdown/Antiderivatives.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Concaves",
+                    "file": "./Math/Calculus/Markdown/concaves.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/graph1.png",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "Finding Derivatives",
+                    "file": "./Math/Calculus/Markdown/Finding Derivatives.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Finding Local Minimas and Maximas",
+                    "file": "./Math/Calculus/Markdown/Finding Local Minimas and Maximas.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/graph4.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/graph5.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/graph6.png",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "Functions and derivatives and their graphs",
+                    "file": "./Math/Calculus/Markdown/Functions and Derivatives and their graphs.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/graph2.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/graph3.png",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "Newton's method",
+                    "file": "./Math/Calculus/Markdown/Newton's method.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Riemann sums",
+                    "file": "./Math/Calculus/Markdown/Riemann sums.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/diagram3.jpg",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "Summations",
+                    "file": "./Math/Calculus/Markdown/Summations.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Tangent lines",
+                    "file": "./Math/Calculus/Markdown/Tangent Lines.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/graph7.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/graph8.png",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/graph9.png",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "The cereal box problem",
+                    "file": "./Math/Calculus/Markdown/The cereal box problem.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/diagram1.jpg",
+                            "type": "image"
+                        },
+                        {
+                            "file": "./Math/Calculus/images/gif1.gif",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "The derivative tests",
+                    "file": "./Math/Calculus/Markdown/The derivative tests.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "The fundamental theorem of calculus",
+                    "file": "./Math/Calculus/Markdown/The Fundamental thereom of calculus.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Using sums to find the area under the curve",
+                    "file": "./Math/Calculus/Markdown/Using sums to find the area under the curve.md",
+                    "type": "markdown",
+                    "depends": [
+                        {
+                            "file": "./Math/Calculus/images/diagram4.jpg",
+                            "type": "image"
+                        }
+                    ]
+                },
+                {
+                    "text": "Properties of the definite integral",
+                    "file": "./Math/Calculus/Markdown/Properties of the definite integral.md",
+                    "type": "markdown"
+                },
+                {
+                    "text": "Numerical Integration",
+                    "file": "./Math/Calculus/Markdown/Numerical Integration.md",
+                    "type": "markdown"
+                }
+            ]
+        },
+	{
+	    "name": "21C",
+	    "links": [
+		{
+                    "text": "Distance Between Points and Objects in Space",
+		    "file": "./Math/Calculus/Notebooks/distance_from_points.ipynb",
+		    "type": "jupyter"
+		},
+		{
+		    "text": "The Integral Test and Remainders",
+		    "file": "./Math/Calculus/Notebooks/integral_test_remainder.ipynb",
+		    "type": "jupyter"
+		},
+		{
+		    "text": "The Delta Epsilon Definition of the Limit",
+		    "file": "./Math/Calculus/Notebooks/delta_epsilon.ipynb",
+		    "type": "jupyter"
+		}
+	    ]
+	}
+    ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter28MapBlanked.png" style="height:100vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 5vh; left: 7vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 14vh; left: 15vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 16vh; left: 2vw; width: 8vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 28vh; left: 13vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 38vh; left: 85vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 43vh; left: 73vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 60vh; left: 65vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 80vh; left: 70vw;"/>
+        <input type="text" id="9" style="position: absolute; top: 93vh; left: 68vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Texas",
+                "2":"Cuba",
+                "3":"Mexico",
+                "4":"Panama",
+                "5":"Japan",
+                "6":"Korea",
+                "7":"China",
+                "8":"Nanjing",
+                "9":"Taiwan"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

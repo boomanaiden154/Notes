@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./PigPictureRespiratoryBlanked.png" style="height:99vh;width:99vw"/>
+        <input type="text" id="1" style="position:absolute;top:17vh;left:14vw"/>
+        <input type="text" id="2" style="position:absolute;top:17vh;left:40vw"/>
+        <input type="text" id="3" style="position:absolute;top:19vh;left:80vw"/>
+        <input type="text" id="4" style="position:absolute;top:83vh;left:67vw"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"larynx",
+                "2":"trachea",
+                "3":"lungs",
+                "4":"heart"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

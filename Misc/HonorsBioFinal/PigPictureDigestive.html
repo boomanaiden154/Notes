@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./PigPictureDigestiveBlanked.png" style="width:99vw;height:99vh"/>
+        <input type="text" id="1" style="position:absolute;top:27vh;left:3vw"/>
+        <input type="text" id="2" style="position:absolute;top:34vh;left:3vw"/>
+        <input type="text" id="3" style="position:absolute;top:42vh;left:3vw"/>
+        <input type="text" id="4" style="position:absolute;top:50vh;left:3vw"/>
+        <input type="text" id="5" style="position:absolute;top:28vh;left:82vw"/>
+        <input type="text" id="6" style="position:absolute;top:42vh;left:82vw"/>
+        <input type="text" id="7" style="position:absolute;top:50vh;left:82vw"/>
+        <input type="text" id="8" style="position:absolute;top:58vh;left:82vw"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Liver",
+                "2":"Gallbladder",
+                "3":"duodenum",
+                "4":"Small Intestine",
+                "5":"Lungs",
+                "6":"Stomach",
+                "7":"Pancreas",
+                "8":"Large intestine"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>

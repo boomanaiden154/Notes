@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="./Chapter32MapBlanked.png" style="height:100vh;width:99vw"/>
+        <input type="text" id="1" style="position: absolute; top: 15vh; left: 65vw;"/>
+        <input type="text" id="2" style="position: absolute; top: 25vh; left: 55vw;"/>
+        <input type="text" id="3" style="position: absolute; top: 30vh; left: 10vw;"/>
+        <input type="text" id="4" style="position: absolute; top: 40vh; left: 30vw;"/>
+        <input type="text" id="5" style="position: absolute; top: 38vh; left: 60vw;"/>
+        <input type="text" id="6" style="position: absolute; top: 55vh; left: 8vw;"/>
+        <input type="text" id="7" style="position: absolute; top: 63vh; left: 17vw;"/>
+        <input type="text" id="8" style="position: absolute; top: 59vh; left: 77vw;"/>
+        <input type="text" id="9" style="position: absolute; top: 80vh; left: 20vw;"/>
+        <input type="text" id="10" style="position: absolute; top: 89vh; left: 72vw;"/>
+        <input type="text" id="11" style="position: absolute; top: 93vh; left: 23vw;"/>
+        <input type="button" onclick="checkAnswers()" value="check answers"/>
+        <div id="results"></div>
+        <script>
+            var answers = {
+                "1":"Tokyo",
+                "2":"Hiroshima",
+                "3":"China",
+                "4":"Nagasaki",
+                "5":"Battle of Midway",
+                "6":"Hong Kong",
+                "7":"Phillipine Islands",
+                "8":"Hawaiian Islands",
+                "9":"New Guinea",
+                "10":"Battle of Guadalcanal",
+                "11":"Battle of the Coral Sea"
+            }
+        </script>
+        <script src="../checkanswers.js"></script>
+    </body>
+</html>
