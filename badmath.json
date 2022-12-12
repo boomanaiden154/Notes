@@ -178,6 +178,16 @@
 		    "type": "jupyter"
 		}
 	    ]
+	},
+	{
+	    "name": "21D",
+	    "links": [
+	        {
+	            "text": "Divergence",
+	            "file": "./Math/Calculus/Notebooks/divergence.ipynb",
+	            "type": "jupyter"
+	        }
+	    ]
 	}
     ]
 }
