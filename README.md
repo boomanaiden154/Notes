@@ -29,5 +29,6 @@ assuming that you have all the necessary dependencies set up. If you don't,
 it will probably error out somewhere along the way and hopefully tell you
 what you're missing.
 
-(Dockerfile that generates an image with all the dependencies preinstalled
-coming soon)
+There is a Dockerfile the creates an Alpine based image that contains all of
+the dependencies that you need in order to build the site:
+`notes-build.Dockerfile`.
