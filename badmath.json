@@ -186,6 +186,11 @@
 	            "text": "Divergence",
 	            "file": "./Math/Calculus/Notebooks/divergence.ipynb",
 	            "type": "jupyter"
+	        },
+	        {
+	            "text": "Double Integrals Over Rectangular Regions",
+	            "file": "./Math/Calculus/Notebooks/double_integration_rectangular.ipynb",
+	            "type": "jupyter"
 	        }
 	    ]
 	}
