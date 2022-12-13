@@ -191,7 +191,12 @@
 	            "text": "Double Integrals Over Rectangular Regions",
 	            "file": "./Math/Calculus/Notebooks/double_integration_rectangular.ipynb",
 	            "type": "jupyter"
-	        }
+	        },
+		{
+		    "text": "Double Integrals over General Regions",
+		    "file": "./Math/Calculus/Notebooks/double_integration_general_regions.ipynb",
+		    "type": "jupyter"
+		}
 	    ]
 	}
     ]
