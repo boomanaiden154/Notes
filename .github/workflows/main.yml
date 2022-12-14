@@ -26,7 +26,7 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/notes-build:latest, ghcr.io/notes-build:${{ env.GITHUB_SHA }}
-          file: notes-build.Dockerfile
+          file: "notes-build.Dockerfile"
  PushToGitlab:
     runs-on: ubuntu-latest
     name: Job to push code changes to Gitlab
