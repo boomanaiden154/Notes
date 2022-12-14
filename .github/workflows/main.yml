@@ -5,16 +5,9 @@ on:
     branches:
       - 'master'
 
-permissions:
-  contents: read
-  packages: write
-
 jobs:
   BuildNotesBuild:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -22,8 +15,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghrc.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: boomanaiden154
+          password: ${{ secrets.GHCR_TOKEN }}
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
