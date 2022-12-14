@@ -27,6 +27,7 @@ jobs:
           push: true
           tags: ghcr.io/notes-build:latest
           file: notes-build.Dockerfile
+
   PushToGitlab:
     runs-on: ubuntu-latest
     name: Job to push code changes to Gitlab
