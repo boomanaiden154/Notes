@@ -71,7 +71,7 @@
   * $$P_x=\frac{\partial P}{\partial z}(x,y,z)$$
 * The curl:
   * The cross product
-  * $$\text{Curl}\vec{F}=\nabla \times \vec{F}
+  * $$\text{Curl}\vec{F}=\nabla \times \vec{F}$$
   * Usually computed like other cross products with the determinant of a
     constructed matrix.
 * Each of these has a fundamental theorem of Calculus
