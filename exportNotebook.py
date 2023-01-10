@@ -1,7 +1,7 @@
 import nbformat
 import os
 
-from nbconvert import MarkdownExporter
+from nbconvert.exporters import MarkdownExporter
 from nbconvert.preprocessors import Preprocessor
 
 from ipython_genutils.ipstruct import Struct
