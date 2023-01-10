@@ -16,6 +16,10 @@
       the conversion ratio is exactly 1 inch to 2.54 cm, so we can
       consider the conversion ratio to have an infinite number of
       significant figures.
+        * Need to be careful though, because some conversion ratios might not
+        be given in exact terms. Like if the conversion ratio for miles to km
+        is given as 0.6mi/km, that's not the actual full conversion ratio and
+        thus you have to limit the final output to one significant digit.
     * Apparently there is a journal article titled "Propogation of Significant
     Figures" that covers some of the edge cases here in more detail.
     * Rules for significant figures in math operations
@@ -24,6 +28,10 @@
       of the inputs.
       * For addition or subtraction, the result has the same number of decimal
       places as the term with the least number of decimal places.
+        * Need to be pretty careful with these rules, as it isn't just about
+        decimal places (despite how the textbook puts it. I think it's easier
+        just to count the number of trailing zeros in each number and then just
+        round off the final result to the max of the zero counts place.
     * Rules for rounding
       * Always complete a series of calculations before figuring out where to
       round off.
