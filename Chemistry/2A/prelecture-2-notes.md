@@ -100,7 +100,118 @@
       * $N^{3-}$ - Nitride
       * $p^{3-}$ - Phosphide
   * Ionic Binary Compounds (type II)
+    * Many metals can form more than one type of cation and thus can form
+    multiple ionic compounds with a signel anion. We must specify charge in
+    these cases to prevent ambiguity.
+    * Some older naming systems distinguished between cations like this with
+    two different metals by putting -ic at the end of those with higher charge
+    and -ous on the ones with lower charge. Ie $Fe^{3+}$ is the ferric ion and
+    $Fe^{2+}$ is the ferrous ion.
+    * The other system simply uses roman numerals to indicate the charge after
+    the name of the element. For example $Fe^{3+}$ would be the iron(III) ion.
+    The textbook uses this naming scheme.
+    * The elements that need to be named like this usually aren't in groups 1A
+    (alkali metals) or 2A (alkaline earth metals) because they only form 1+
+    and 2+ cations respectively, but some transition metals do need this due
+    to their very different electron configuration.
+    * When naming Type II compounds, it is important to balance the charges to
+    determine the cation charge (ie if just given a chemical formula without
+    charge), and then insert a roman numeral after the element name.
+    * Some common type II cation names (in Ion/Systematic - Roman Numeral
+    - Alternate Name format):
+      * $Fe^{3+}$ - Iron(III) - Ferric
+      * $Fe^{2+}$ - Iron(II) - Ferrous
+      * $Cu^{2+}$ - Copper(II) - Cupric
+      * $Cu^{+}$ - Copper(I) - Cuprous
+      * $Co^{3+}$ - Cobalt(III) - Cobaltic
+      * $Co^{2+}$ - Cobalt(II) - Cobaltous
+      * $Sn^{4+}$ - Tin(IV) - Stannic
+      * $Sn^{2+}$ - Tin(II) - Stannous
+      * $Pb^{4+}$ - Lead(IV) - Plumbic
+      * $Pb^{2+}$ - Lead(II) - Plumbous
+      * $Hg^{2+}$ - Mercury(II) - Mercuric
+      * $Hg_2^{2+}$ - Mercury(I) - Mercurous
   * Ionic Compounds Containing Polyatomic Ions
+    * Polyatomic ions are assigned special names that must be memorized.
+    * There are several polyatomic cations that just differ by the number
+    of oxygen atoms. They are called oxyanions and the one with the smaller
+    number of oxygen atoms ends in -ite and the one with more ends in -ate.
+    Hypo- and per- are used as prefixes for species with even more. Hypo
+    being on the lower end per being on the higher end.
+    * Some common polyatomic ion names:
+      * $NH_4^+$ - Ammonium
+      * $NO_2^-$ - Nitrite
+      * $NO_2^-$ - Nitrate
+      * $SO_3^{2-}$ - Sulfite
+      * $SO_4^{2-}$ - Sulfate
+      * $HSO_4^{-}$ - Hydrogen sulfate (bisulfate commonly used too)
+      * $OH^-$ - Hydroxide
+      * $CN^-$ - Cyanide
+      * $PO_4^{3-}$ - Phosphate
+      * $HPO_4^{2-}$ - Hydrogen Phosphate
+      * $H_2PO_4^-$ - Dihydrogen phosphate
+      * $CO_3^{2-}$ - Carbonate
+      * $HCO_3^-$ - Hydrogen carbonate
+      * $C_2H_3O_2^-$ - Acetate
+      * $MnO_4^-$ - Permanganate
+      * $Cr_2O_7^{2-}$ - Dichromate
+      * $CrO_4^{2-}$ - Chromate
+      * $O_2^{2-}$ - Peroxide
+      * $ClO^-$ - Hypochlorite
+      * $ClO_2^-$ - Chlorite
+      * $ClO_3^-$ - Chlorate
+      * $ClO_4^-$ - Perchlorate
   * Covalent binary compounds
+    * These compounds are formed between two nonmetals. They are named somewhat
+    similarly to ionic compounds.
+    * The following rules apply:
+      * The first element is named first using the full element name
+      * The second element is named as if it were an anion
+      * Prefixes are used to denote the number of atoms present
+        * mono - 1
+        * di - 2
+        * tri - 3
+        * tetra - 4
+        * penta - 5
+        * hexa - 6
+        * hepta - 7
+        * octa - 8
+      * The prefix mono is never used on the first element.
+      * The final o or a of the prefix is usually dropped whenever an element
+      starts with a vowel.
+    * Some elements are usually referred to by their common names like water
+    for $H_2O$ and ammonia for $NH_3$.
+    * Some examples:
+      * $N_2O$ - Dinitrogen monoxide
+      * $NO$ - Nitrogen monoxide
+      * $NO_2$ - Nitrogen Dioxide
+      * $N_2O_3$ - Dinitrogen trioxide
+      * $N_2O_4$ - Dinitrogen tetroxide
+      * $N_2O_5$ - Dinitrogen pentoxide
   * Acids
+    * An acid can be viewed as a molecule with one or more $H^+$ ions attached
+    to an anion.
+    * The rules for naming acids are dependent upon whether or not the acid
+    contains oxygen.
+      * If the acid does not contain oxygen it is named with the prefix hydro
+      and the suffix -ic. Ie HCl -> Hydrochloric acid
+      * If the acid contains oxygen the root name of the anion is used with a
+      suffix of -ic or -ous. If the anion ends with -ate, the acid suffix is
+      -ic and if the anion ends with -ite the acid name ends with -ous.
+    * Some examples:
+      * $HF$ - Hydrofluoric acid
+      * $HCl$ - Hydrochloric acid
+      * $HBr$ - Hydrobromic acid
+      * $HI$ - Hydroiodic acid
+      * $HCN$ - Hydrocyanic acid
+      * $H_2S$ - Hydrosulfuric acid
+      * $HNO_3$ - Nitric acid
+      * $HNO_2$ - Nitrous acid
+      * $H_2SO_4$ - Sulfuric acid
+      * $H_2SO_3$ - Sulfurous acid
+      * $H_3PO_4$ - Phosphoric acid
+      * $HC_2H_3O_2$ - Acetic acid
   * Formulas from names
+    * Deriving the chemical formula from a name is also pretty important.
+    * Usually just involves a little bit of figuring some stuff out and
+    making sure everything is balanced.
